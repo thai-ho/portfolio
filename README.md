@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Vue App
 
-## Getting Started
+This project is a single-page application built with Vue.js. It features a full-screen scrolling layout where each section of the application is displayed as a separate full-screen page. The application includes an introductory section, a footer, and various content sections that can be navigated using the mouse wheel.
 
-First, run the development server:
+## Project Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+my-vue-app
+├── src
+│   ├── components
+│   │   ├── Footer.vue        # Footer component for the application
+│   │   └── Intro.vue         # Intro component for the application
+│   ├── App.vue               # Main component defining the layout and sections
+│   └── main.js               # Entry point of the application
+├── package.json              # npm configuration file
+├── tsconfig.json             # TypeScript configuration file
+└── README.md                 # Documentation for the project
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Full-screen sections that can be navigated using the mouse wheel.
+- Responsive design with modern UI components.
+- Easy to extend with additional sections and components.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+To get started with the project, clone the repository and install the dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+git clone <repository-url>
+cd my-vue-app
+npm install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run the application in development mode, use the following command:
 
-## Deploy on Vercel
+```bash
+npm run serve
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open your browser and navigate to `http://localhost:8080` to view the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License.

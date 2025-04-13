@@ -1,0 +1,42 @@
+@import "./base.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font-inter);
+  /* font-feature-settings: "ss03", "cv02", "cv11"; */
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  height: 100%;
+  max-width: 512px;
+  margin: auto;
+  padding: 64px 32px;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-section {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Maintain your existing content max-width */
+.scroll-section > * {
+  max-width: 500px;
+  width: 100%;
+}
