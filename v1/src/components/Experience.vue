@@ -165,7 +165,7 @@
         <!-- Resume View Button -->
         <div class="pt-4">
           <a
-            href="/src/assets/HoangThaiHo_FrontEndDeveloper_Resume.pdf"
+            :href="resumePdf"
             target="_blank"
             class="text-white hover:text-gray-300 transition-colors flex items-center"
           >
@@ -192,6 +192,7 @@
 </template>
 
 <script setup>
+import resumePdf from '../assets/HoangThaiHo_FrontEndDeveloper_Resume.pdf';
 // You can use your experience array data here
 // const experience = [...];
 </script>
