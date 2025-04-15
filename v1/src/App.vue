@@ -7,10 +7,7 @@
 
     <!-- Native footer at the app level -->
     <footer class="mt-24 pt-8 text-center">
-      <p class="text-sm text-gray-500">
-        Thanks for still scrolling! <br />My contacts are up there if you need
-        me.
-      </p>
+      <p class="text-sm text-gray-500">Thank you for visiting my portfolio!</p>
     </footer>
   </div>
 </template>
