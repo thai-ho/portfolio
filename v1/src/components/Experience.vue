@@ -1,12 +1,12 @@
 <template>
   <section class="font-medium bg-black text-gray-100">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4 sm:px-0">
       <h1 class="text-3xl font-bold mb-8 text-gray-100">Work Experience</h1>
       <div class="space-y-16">
-        <div class="grid grid-cols-[110px_1fr] gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-3 sm:gap-6">
           <div class="text-gray-500">2021 - present</div>
           <div class="space-y-2">
-            <h3 class="text-md font-semibold text-gray-100 flex items-center">
+            <h3 class="text-md font-semibold text-gray-100 flex items-center flex-wrap">
               Web Developer<span class="mx-2 text-gray-400">&bull;</span>
               <div class="flex items-center gap-2">
                 <a
@@ -68,10 +68,10 @@
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-[110px_1fr] gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-3 sm:gap-6">
           <div class="text-gray-500">2021</div>
           <div class="space-y-2">
-            <h3 class="text-md font-semibold flex items-center text-gray-100">
+            <h3 class="text-md font-semibold flex items-center text-gray-100 flex-wrap">
               Frontend Developer<span class="mx-2 text-gray-400">&bull;</span>
               <a
                 href="https://exceltech.vn/"
@@ -115,10 +115,10 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-[110px_1fr] gap-6">
+        <div class="grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-3 sm:gap-6">
           <div class="text-gray-500">2020 - 2021</div>
           <div class="space-y-2">
-            <h3 class="text-md font-semibold text-gray-100 flex items-center">
+            <h3 class="text-md font-semibold text-gray-100 flex items-center flex-wrap">
               Frontend Developer<span class="mx-2 text-gray-400">&bull;</span>
               <a
                 href="https://innotech.vn"
@@ -196,3 +196,16 @@ import resumePdf from '../assets/HoangThaiHo_FrontEndDeveloper_Resume.pdf';
 // You can use your experience array data here
 // const experience = [...];
 </script>
+
+<style scoped>
+@media (max-width: 512px) {
+  h3 {
+    font-size: 0.95rem;
+  }
+  
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+</style>

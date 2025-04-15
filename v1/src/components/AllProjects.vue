@@ -78,7 +78,7 @@ const projects = [
 </script>
 
 <template>
-  <section class="bg-black text-white py-8">
+  <section class="bg-black text-white py-8 px-4 sm:px-0">
     <div class="container mx-auto">
       <div class="flex justify-between items-center mb-8">
         <h1 class="text-3xl font-bold">Project Archives</h1>

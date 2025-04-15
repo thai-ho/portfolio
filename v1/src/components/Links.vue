@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-black text-gray-100 py-12">
+  <section class="bg-black text-gray-100 py-12 px-4 sm:px-0">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-8">Links</h2>
 

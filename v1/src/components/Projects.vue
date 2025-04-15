@@ -14,7 +14,7 @@ const projects = [
 
 <template>
   <section class="font-medium bg-black text-gray-100 py-8">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-4 sm:px-0">
       <h1 class="text-3xl font-bold mb-10 text-gray-100">Projects</h1>
 
       <div class="space-y-16">
@@ -24,7 +24,7 @@ const projects = [
             :key="project.title"
             class="border-t border-gray-800 pt-8"
           >
-            <h3 class="text-xl font-semibold text-gray-100 flex items-center mb-4">
+            <h3 class="text-xl font-semibold text-gray-100 flex items-center mb-4 flex-wrap">
               <a
                 :href="project.sourceLink"
                 target="_blank"
@@ -103,5 +103,27 @@ a {
 }
 a:hover {
   text-decoration: none;
+}
+
+@media (max-width: 512px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+  
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .space-y-16 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+  }
 }
 </style>
