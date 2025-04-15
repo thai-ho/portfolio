@@ -54,25 +54,25 @@ const projects = [
     title: "WisereOS",
     technologies: ["React", "Next.js", "CSSModules"],
     sourceLink: "https://wisere.com/",
-    year: "2020",
+    year: "2021",
   },
   {
     title: "WineMart",
     technologies: ["React", "Next.js", "CSSModules"],
     sourceLink: "https://winemart.vn/",
-    year: "2020",
+    year: "2021",
   },
   {
     title: "Derivative SSI Board",
     technologies: ["JS", "SASS/SCSS", "jQuery"],
     sourceLink: null,
-    year: "2019",
+    year: "2020",
   },
   {
     title: "HSC, TVSI, Maybank,... Trading Platform",
     technologies: ["React", "SASS/SCSS", "C#", "jQuery"],
     sourceLink: null,
-    year: "2019",
+    year: "2020",
   },
 ];
 </script>

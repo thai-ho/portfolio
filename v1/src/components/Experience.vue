@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="grid grid-cols-[110px_1fr] gap-6">
-          <div class="text-gray-500">2020 - 2021</div>
+          <div class="text-gray-500">2021</div>
           <div class="space-y-2">
             <h3 class="text-md font-semibold flex items-center text-gray-100">
               Frontend Developer<span class="mx-2 text-gray-400">&bull;</span>
@@ -116,7 +116,7 @@
         </div>
 
         <div class="grid grid-cols-[110px_1fr] gap-6">
-          <div class="text-gray-500">2019 - 2020</div>
+          <div class="text-gray-500">2020 - 2021</div>
           <div class="space-y-2">
             <h3 class="text-md font-semibold text-gray-100 flex items-center">
               Frontend Developer<span class="mx-2 text-gray-400">&bull;</span>
