@@ -8,7 +8,7 @@ import AvatarImage from "../assets/ava.jpeg";
 
 <template>
   <div class="flex flex-col gap-8">
-    <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-4 items-center sm:items-start">
+    <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-4 items-center">
       <div class="shrink-0 w-[88px] h-[88px] rounded-full overflow-hidden">
         <img
           :src="AvatarImage"
