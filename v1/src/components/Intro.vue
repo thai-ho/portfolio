@@ -9,8 +9,8 @@
         building interfaces that users actually enjoys using.
       </p>
       <p class="mb-2">
-        Always building. Always shipping. Never settling. Any chances, let's
-        make something awesome together!
+        Always building. Always shipping. Never settling. If there are any
+        chances, let's make something awesome together!
       </p>
       <p></p>
     </div>
