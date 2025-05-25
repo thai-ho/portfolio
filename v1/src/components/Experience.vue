@@ -6,7 +6,9 @@
         <div class="grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-3 sm:gap-6">
           <div class="text-gray-500">2021 - present</div>
           <div class="space-y-2">
-            <h3 class="text-md font-semibold text-gray-100 flex items-center flex-wrap">
+            <h3
+              class="text-md font-semibold text-gray-100 flex items-center flex-wrap"
+            >
               Web Developer<span class="mx-2 text-gray-400">&bull;</span>
               <div class="flex items-center gap-2">
                 <a
@@ -45,9 +47,9 @@
             </h3>
             <p class="text-gray-300">
               Working with an awesome team of designers, product folks & devs to
-              build features for a Digital Bank. Currently helping shape how our
-              users interact with financial products while growing alongside an
-              amazing company.
+              build features for one of the most Digital Bank in VietNam.
+              Helping my web team to build a solid design system and the new
+              shape of products, bringing better experience to our users.
             </p>
             <div class="flex flex-wrap gap-2 mt-4">
               <span
@@ -71,7 +73,9 @@
         <div class="grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-3 sm:gap-6">
           <div class="text-gray-500">2021</div>
           <div class="space-y-2">
-            <h3 class="text-md font-semibold flex items-center text-gray-100 flex-wrap">
+            <h3
+              class="text-md font-semibold flex items-center text-gray-100 flex-wrap"
+            >
               Frontend Developer<span class="mx-2 text-gray-400">&bull;</span>
               <a
                 href="https://exceltech.vn/"
@@ -118,7 +122,9 @@
         <div class="grid grid-cols-1 sm:grid-cols-[110px_1fr] gap-3 sm:gap-6">
           <div class="text-gray-500">2020 - 2021</div>
           <div class="space-y-2">
-            <h3 class="text-md font-semibold text-gray-100 flex items-center flex-wrap">
+            <h3
+              class="text-md font-semibold text-gray-100 flex items-center flex-wrap"
+            >
               Frontend Developer<span class="mx-2 text-gray-400">&bull;</span>
               <a
                 href="https://innotech.vn"
@@ -143,9 +149,9 @@
               </span>
             </h3>
             <p class="text-gray-300">
-              Jumped in to help big financial players like SSI, Maybank, HSC and
-              more build and maintain their digital presence. Translated complex
-              requirements into user-friendly interfaces.
+              Jumped in as an intern, to help big financial players like SSI,
+              Maybank, HSC and more build and maintain their digital presence.
+              Translated complex requirements into user-friendly interfaces.
             </p>
 
             <div class="flex flex-wrap gap-2 mt-4">
@@ -192,7 +198,7 @@
 </template>
 
 <script setup>
-import resumePdf from '../assets/HoangThaiHo_FrontEndDeveloper_Resume.pdf';
+import resumePdf from "../assets/HoangThaiHo_FrontEndDeveloper_Resume.pdf";
 // You can use your experience array data here
 // const experience = [...];
 </script>
@@ -202,7 +208,7 @@ import resumePdf from '../assets/HoangThaiHo_FrontEndDeveloper_Resume.pdf';
   h3 {
     font-size: 0.95rem;
   }
-  
+
   .container {
     padding-left: 1rem;
     padding-right: 1rem;

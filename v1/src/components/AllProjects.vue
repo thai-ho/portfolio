@@ -9,28 +9,31 @@ const projects = [
   {
     title: "CTicket",
     technologies: [
-      "React",
+      "Next.js",
       "Typescript",
+      "Daisy UI",
       "Tailwind CSS",
       "Tooljet",
-      "Redux",
       "Casdoor",
+      "Cloudflare",
     ],
     sourceLink: "https://cticket.vn/",
     year: "2025",
   },
   {
-    title: "Cake Affiliate Platform",
+    title: "Cake Onboarding Platform",
     technologies: [
-      "React",
       "Next.js",
-      "CSS-in-JS",
       "Typescript",
+      "CSS-in-JS",
       "RHF",
       "React Query",
+      "BFF",
     ],
     sourceLink: "https://dop.cake.vn/affiliate",
     year: "2023",
+    description:
+      "There are many links (a.k.a. vendors) for this platform, but I chose this one just to showcase the BFF concept :D",
   },
   {
     title: "Banhmi UI Library",
@@ -122,8 +125,18 @@ const projects = [
                     </svg>
                   </span>
                 </a>
-                <span v-else>{{ project.title }}</span>
+                <span v-else class="w-full flex items-center justify-between">
+                  <span>{{ project.title }}</span>
+                  <span
+                    class="ml-2 px-2 py-0.5 text-xs bg-gray-800 text-gray-400 rounded"
+                    >Unavailable</span
+                  >
+                </span>
               </h3>
+
+              <p v-if="project.description" class="text-gray-300 text-sm mt-2">
+                {{ project.description }}
+              </p>
 
               <div class="flex flex-wrap gap-1 mt-2">
                 <span
