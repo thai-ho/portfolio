@@ -15,7 +15,6 @@ const projects = [
       "Tailwind CSS",
       "Tooljet",
       "Casdoor",
-      "Cloudflare",
     ],
     sourceLink: "https://cticket.vn/",
     year: "2025",
