@@ -114,8 +114,13 @@ const projects = [
       <div class="border-t border-gray-800 mb-4"></div>
 
       <div class="space-y-8">
-        <div v-for="project in projects" :key="project.title">
-          <div class="grid grid-cols-[auto_1fr] border-b border-gray-800 pb-8">
+        <div v-for="(project, index) in projects" :key="project.title">
+          <div
+            class="grid grid-cols-[auto_1fr] pb-8"
+            :class="{
+              'border-b border-gray-800': index !== projects.length - 1,
+            }"
+          >
             <div class="text-gray-500 pt-0.5">
               {{ project.year }}<span class="mx-2 text-gray-400">&bull;</span>
             </div>
