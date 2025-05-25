@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const projects = [
   {
     title: "Portfolio v1",
@@ -20,6 +20,12 @@ const projects = [
     year: "2025",
   },
   {
+    title: "Cake",
+    technologies: ["Next.js", "Typescript", "Tailwind CSS", "Strapi"],
+    sourceLink: "https://cake.vn/",
+    year: "2025",
+  },
+  {
     title: "Cake Onboarding Platform",
     technologies: [
       "Next.js",
@@ -35,6 +41,19 @@ const projects = [
       "There are many links (a.k.a. vendors) for this platform, but I chose this one just to showcase the BFF concept :D",
   },
   {
+    title: "Cake Internal Portal",
+    technologies: [
+      "React",
+      "Typescript",
+      "RHF",
+      "React Query",
+      "Micro services",
+      "Monorepo",
+    ],
+    sourceLink: "private",
+    year: "2024",
+  },
+  {
     title: "Banhmi UI Library",
     technologies: ["React", "Typescript", "Storybook"],
     sourceLink: "https://github.com/beVietnam/banhmi",
@@ -43,7 +62,7 @@ const projects = [
   {
     title: "Eoty Dashboards",
     technologies: ["React", "Node.js", "CSSModules"],
-    sourceLink: null,
+    sourceLink: "private",
     year: "2021",
   },
   {
@@ -67,13 +86,13 @@ const projects = [
   {
     title: "Derivative SSI Board",
     technologies: ["JS", "SASS/SCSS", "jQuery"],
-    sourceLink: null,
+    sourceLink: "",
     year: "2020",
   },
   {
     title: "HSC, TVSI, Maybank,... Trading Platform",
     technologies: ["React", "SASS/SCSS", "C#", "jQuery"],
-    sourceLink: null,
+    sourceLink: "",
     year: "2020",
   },
 ];
@@ -103,7 +122,10 @@ const projects = [
             <div>
               <h3 class="text-xl font-semibold text-white flex items-center">
                 <a
-                  v-if="project.sourceLink"
+                  v-if="
+                    project.sourceLink &&
+                    !['private'].includes(project.sourceLink)
+                  "
                   :href="project.sourceLink"
                   target="_blank"
                   class="text-white hover:text-gray-300 transition-colors flex items-center"
@@ -128,7 +150,8 @@ const projects = [
                   <span>{{ project.title }}</span>
                   <span
                     class="ml-2 px-2 py-0.5 text-xs bg-gray-800 text-gray-400 rounded"
-                    >Unavailable</span
+                  >
+                    Private</span
                   >
                 </span>
               </h3>
