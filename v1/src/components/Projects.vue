@@ -72,7 +72,7 @@ const projects = [
         <!-- Link to all projects -->
         <div class="pt-4 border-t border-gray-800">
           <RouterLink
-            to="/all-projects"
+            to="/v1/all-projects"
             class="inline-flex items-center gap-2 py-2 text-gray-100 hover:text-gray-300 transition-colors no-underline"
           >
             <span>View Full Project Archive</span>

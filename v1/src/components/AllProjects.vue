@@ -104,7 +104,7 @@ const projects = [
       <div class="flex justify-between items-center mb-8">
         <h1 class="text-3xl font-bold">Project Archives</h1>
         <a
-          href="/"
+          href="/v1"
           class="text-white hover:text-gray-300 transition-colors flex items-center gap-2"
         >
           <span>←</span> Back to home
