@@ -1,1 +1,1 @@
-Now is v1. New year gonna new me.
+New year new me.
