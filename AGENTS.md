@@ -18,6 +18,13 @@ This file applies to the entire repository.
 - Do not commit generated output, dependency directories, secrets, or local environment files.
 - Keep changes scoped to the request and leave unrelated working-tree changes untouched.
 
+## Agent interoperability
+
+- Codex, Claude, and other coding agents share these repository-wide instructions.
+- Read the working tree before editing; never overwrite another agent's uncommitted work.
+- Leave a concise handoff with changed files, verification performed, and known follow-ups.
+- Repository instructions override an agent's preferred conventions when they conflict.
+
 ## Verification spec
 
 Before handing off a code change, run the checks relevant to it:
