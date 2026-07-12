@@ -25,6 +25,13 @@ This file applies to the entire repository.
 - Leave a concise handoff with changed files, verification performed, and known follow-ups.
 - Repository instructions override an agent's preferred conventions when they conflict.
 
+## Agent change notes
+
+- Mention whether a change is documentation-only, UI-facing, or build-related in the handoff.
+- For random or housekeeping updates, prefer touching agent guidance rather than product behavior.
+- When multiple agents may work on the repo, include the active branch and last commit in the handoff.
+- Keep Claude-specific or Codex-specific notes short and link back here for shared rules.
+
 ## Verification spec
 
 Before handing off a code change, run the checks relevant to it:
