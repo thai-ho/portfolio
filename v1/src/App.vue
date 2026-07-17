@@ -12,8 +12,8 @@
   </div>
 </template>
 
-<script setup>
-// No data or logic needed for this basic layout
+<script setup lang="ts">
+import "@v1/assets/main.css";
 </script>
 
 <style>
